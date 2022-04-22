@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMarket.Domain", "PizzaMarket.Domain\PizzaMarket.Domain.csproj", "{9A9C41DA-BF73-43CE-BD19-7306ACD8DAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMarket.Utils", "PizzaMarket.Utils\PizzaMarket.Utils.csproj", "{F85BB06B-9209-4AC6-B460-5ED1A683FCF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMarket.Infratructure", "PizzaMarket.Data\PizzaMarket.Infratructure.csproj", "{0C9DAFE7-E8ED-4CB9-834D-5B937B6381F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMarket.Application", "PizzaMarket.Application\PizzaMarket.Application.csproj", "{2202EF17-20E3-40C9-8F79-FC894845EACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMarket.WebApi", "PizzaMarket.WebApi\PizzaMarket.WebApi.csproj", "{C6B4CF7A-713D-4829-B102-2480A5C31DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMarket.Logic", "PizzaMarket.Logic\PizzaMarket.Logic.csproj", "{EDD5F490-A6F8-4125-9C4C-5081CBB8E4C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A9C41DA-BF73-43CE-BD19-7306ACD8DAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9C41DA-BF73-43CE-BD19-7306ACD8DAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9C41DA-BF73-43CE-BD19-7306ACD8DAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9C41DA-BF73-43CE-BD19-7306ACD8DAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85BB06B-9209-4AC6-B460-5ED1A683FCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85BB06B-9209-4AC6-B460-5ED1A683FCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85BB06B-9209-4AC6-B460-5ED1A683FCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85BB06B-9209-4AC6-B460-5ED1A683FCF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9DAFE7-E8ED-4CB9-834D-5B937B6381F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9DAFE7-E8ED-4CB9-834D-5B937B6381F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9DAFE7-E8ED-4CB9-834D-5B937B6381F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9DAFE7-E8ED-4CB9-834D-5B937B6381F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2202EF17-20E3-40C9-8F79-FC894845EACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2202EF17-20E3-40C9-8F79-FC894845EACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2202EF17-20E3-40C9-8F79-FC894845EACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2202EF17-20E3-40C9-8F79-FC894845EACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B4CF7A-713D-4829-B102-2480A5C31DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B4CF7A-713D-4829-B102-2480A5C31DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B4CF7A-713D-4829-B102-2480A5C31DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B4CF7A-713D-4829-B102-2480A5C31DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD5F490-A6F8-4125-9C4C-5081CBB8E4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD5F490-A6F8-4125-9C4C-5081CBB8E4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD5F490-A6F8-4125-9C4C-5081CBB8E4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD5F490-A6F8-4125-9C4C-5081CBB8E4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3272C9D3-554D-4C3D-AAFC-4B79471580CA}
+	EndGlobalSection
+EndGlobal
